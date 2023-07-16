@@ -1,2 +1,15 @@
 # python_django
+
 this is a test proyect
+
+## Creamos el entorno virtual
+
+* Para crear el entorno virtual, vamos a instalar virtualenv con el siguiente comando <pip install virtualenv>
+* Despúes de la instalación se ejecuta <virtualenv venv> para crear la carpeta que contiene el entorno virtual
+
+## Instalar django
+
+* Instalamos django con <pip install django>
+* Creamos la carpeta del proyecto con <django-admin "project" .> (sustituir el nombre de project con el nombre del proyecto, sin comillas) al final se agrega un <.> punto para indicar que la carpeta del proyecto se cree en la raiz, de lo caontrario se crea una carpeta con el nombre del proyecto y dentro otra carpeta con el nombre del proyecto ("name_project/name-project")
+* Activar el servidor del proyecto, ejecutamos <python manage.py runserver> y nos mostrará la dirección IP del servidor local y el puerto.
+* Si se requiere cambiar el puerto se debe de especificar <python manage.py runserver "3000"> sustituyendo el "3000" por el puerto que queramos, por default se asigna el puerto 8000
