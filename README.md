@@ -18,3 +18,14 @@ this is a test proyect
 
 Cada proyecto en django se componen por app, que son funcionalidades que permiten al proyecto trabajar adecuadamente. Se crean a través del archivo de configuración <python manage.py startapp "name"> reemplazando "name" con el nombre de la aplicación.
 Se crea una carpeta con el nombre de la aplicación el cual contiene archivos para la configuración de dicha aplicación.
+
+## Migrations
+
+Se utilizan para interactuar con la base de datos.
+* <python manage.py makemigrations> permite crear los archivos necesarios para la creacion, modificación de las bases de datos a traves de modelos.
+
+* <python manage.py migrations> ejecuta los archivos que se crearon con <makemigrations>
+
+## Usuarios
+django ya incluye un panel de administración, se accede a él con /admin. 
+Para crear un usuaraio y contraseña se ejecuta <python manage.py createsuperuser> y colocamos el nombre de usuario, correo y contraseña
