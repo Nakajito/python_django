@@ -24,7 +24,7 @@ Se crea una carpeta con el nombre de la aplicación el cual contiene archivos pa
 Se utilizan para interactuar con la base de datos.
 * <python manage.py makemigrations> permite crear los archivos necesarios para la creacion, modificación de las bases de datos a traves de modelos.
 
-* <python manage.py migrations> ejecuta los archivos que se crearon con <makemigrations>
+* <python manage.py migrate> ejecuta los archivos que se crearon con <makemigrations>
 
 ## Usuarios
 django ya incluye un panel de administración, se accede a él con /admin. 
